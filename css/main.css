@@ -1,0 +1,79 @@
+#page {
+	width: 80%;
+	margin: 0 auto;
+	/*border-style: solid;*/
+}
+
+nav {
+	/*border-style: solid;*/
+	/*margin: 1%;*/
+}
+
+nav a, nav a:visited {
+	display: inline-block;
+	background-color: white;
+	color: black;
+	padding: .5rem 0rem;
+	text-decoration: none;
+	width: 100%;
+	border-top-style: solid;
+	border-top-width: .5em;
+	border-color: black;
+}
+
+#carousel {
+	/*border-style: solid;
+	margin:1%;*/
+}
+
+.bodycopy {
+	/*border-style: solid;
+	margin: 1%;*/
+}
+
+.bodycopy {
+	width: 60%;
+	margin: auto;
+}
+
+.indeximg {
+	max-width: 100%;
+	margin-top: 3em;
+}
+
+p {
+	padding: 1em 0;
+}
+
+.logo {
+	padding: 0;
+}
+
+.logoimg {
+	max-width: 100%;
+}
+
+h2 {
+	text-align: center;
+}
+
+
+
+#navToggle {
+	display: none;
+	background-color: black;
+	color: #ffffff;
+	padding: .5em 0em;
+	text-decoration: none;
+	transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
+}
+
+.mobilelogo {
+	margin: 0em .4em;
+}
+
+.arrow {
+	float: right;
+	padding: .4em;
+}
