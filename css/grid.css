@@ -1,12 +1,12 @@
 /* grid.css; defining grids for my site */
 
+/*GENERAL GRID STUFF*/
+
 [class*='col-'] {
 	float: left;
 	padding: 0;
 	text-align: center;
 }
-
-
 
 .grid:after {
 	content: "";
@@ -20,11 +20,11 @@
 	box-sizing: border-box;
 }
 
+/*END OF GENERAL GRID STUFF*/
 
 
 
-
-/* defining styles for our 3 column grid */
+/* GRID FOR INDEX.HTML */
 
 .col-1of7nav {
 	width: 14%;
@@ -56,3 +56,10 @@
 	}
 }
 
+/*END OF GRID FOR INDEX.HTML*/
+
+/*GRID FOR MOODS.HTML*/
+
+
+
+/*END OF GRID FOR MOODS.HTML*/
