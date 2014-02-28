@@ -1,13 +1,14 @@
+/*STYLING OF ALL PAGES*/
+
 #page {
 	width: 80%;
 	margin: 0 auto;
-	/*border-style: solid;*/
 }
 
-nav {
-	/*border-style: solid;*/
-	/*margin: 1%;*/
-}
+/*END OF STYLING OF ALL PAGES*/
+
+
+/*STYLING OF THE NAVIGATION*/
 
 nav a, nav a:visited {
 	display: inline-block;
@@ -21,43 +22,14 @@ nav a, nav a:visited {
 	border-color: black;
 }
 
-#carousel {
-	/*border-style: solid;
-	margin:1%;*/
-}
 
-.bodycopy {
-	/*border-style: solid;
-	margin: 1%;*/
-}
-
-.bodycopy {
-	width: 60%;
-	margin: auto;
-}
-
-.indeximg {
-	max-width: 100%;
-	margin-top: 3em;
-}
-
-p {
-	padding: 1em 0;
-}
-
-.logo {
+.logolink {
 	padding: 0;
 }
 
 .logoimg {
 	max-width: 100%;
 }
-
-h2 {
-	text-align: center;
-}
-
-
 
 #navToggle {
 	display: none;
@@ -77,3 +49,29 @@ h2 {
 	float: right;
 	padding: .4em;
 }
+
+/*END OF STYLING OF THE NAVIGATION*/
+
+
+
+/*STYLING OF INDEX.HTML*/
+
+h2 {
+	text-align: center;
+}
+
+p {
+	padding: 1em 0;
+}
+
+.indeximg {
+	max-width: 100%;
+	margin-top: 3em;
+}
+
+.bodycopy {
+	width: 60%;
+	margin: auto;
+}
+
+/*END OF STYLING OF INDEX.HTML*/
