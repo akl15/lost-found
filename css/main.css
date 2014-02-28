@@ -22,6 +22,12 @@ nav a, nav a:visited {
 	border-color: black;
 }
 
+nav a:hover {
+	color: #dedede;
+	transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
 
 .logolink {
 	padding: 0;
@@ -35,7 +41,8 @@ nav a, nav a:visited {
 	display: none;
 	background-color: black;
 	color: #ffffff;
-	padding: .5em 0em;
+	padding-top: .5em;
+	padding-bottom: .4em;
 	text-decoration: none;
 	transition: background-color 0.5s;
 	-webkit-transition: background-color 0.5s;
