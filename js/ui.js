@@ -1,16 +1,6 @@
 $(document).ready( function() {
 
-	// // debugging code
-	// var debugText = "It works!";
-	// $("title").html("Debug: "+debugText);
 
-	// var windowWidth = $(window).width();
-	// $("title").html("Debug: "+windowWidth);
-
-	// if (windowWidth<900) {
-	// 	$("#navToggle").css("display","block");
-	// 	$("nav").hide();
-	// }
 
 	$("#navToggle").click( function() {
 		$("nav").slideToggle(1000);
