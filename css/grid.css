@@ -58,8 +58,17 @@
 
 /*END OF GRID FOR INDEX.HTML*/
 
-/*GRID FOR MOODS.HTML*/
+/*GRID FOR PRODUCTS.HTML*/
 
+.col-1of3products {
+	width: 33.3333333%;
 
+}
 
-/*END OF GRID FOR MOODS.HTML*/
+@media (max-width: 600px) {
+	.col-1of3products {
+		width: 100%;
+	}
+}
+
+/*END OF GRID FOR PRODUCTS.HTML*/
