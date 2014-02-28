@@ -75,3 +75,15 @@ p {
 }
 
 /*END OF STYLING OF INDEX.HTML*/
+
+
+
+/*STYLING OF PRODUCTS.HTML*/
+
+.productimg {
+	max-width: 100%;
+	padding: 1em;
+}
+
+/*END OF STYLING OF PRODUCTS.HTML*/
+
