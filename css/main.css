@@ -74,6 +74,12 @@ p {
 	margin: auto;
 }
 
+.underline {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 /*END OF STYLING OF INDEX.HTML*/
 
 
