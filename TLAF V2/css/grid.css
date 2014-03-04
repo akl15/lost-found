@@ -1,0 +1,163 @@
+/* grid.css; defining grids for my site */
+
+/*GENERAL GRID STUFF*/
+
+
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*END OF GENERAL GRID STUFF*/
+
+
+
+/* GRID FOR INDEX.HTML */
+.grid {
+	text-align: center;
+}
+
+
+
+.col1 {
+	float: left;
+	padding-top: .55em;
+	
+}
+
+.col2 {
+	display: inline-block;
+	margin: 0 auto;
+	width: 200px;
+	padding: 0;
+}
+
+.col3 {
+	float: right;
+	padding-top: .55em;
+	
+}
+
+
+.colnav:hover {
+	background-color: black;
+
+	transition: background-color .5s;
+	-webkit-transition: background-color .5s;
+}
+
+.colnavr:hover {
+	background-color: black;
+	
+	transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
+}
+
+
+.colnavr {
+	float: left;
+	width: 8em;
+	padding: 0;
+}
+.colnav {
+	float: left;
+	width: 8em;
+	padding: 0;
+}
+
+@media (max-width: 1300px) {
+	.colnav {
+		width: 7em;
+	}
+	.colnavr {
+		width: 7em;
+	}
+}
+
+@media (max-width: 1150px) {
+	.colnav {
+		width: 6em;
+	}
+	.colnavr {
+		width: 6em;
+	}
+}
+
+
+
+@media (max-width: 1000px) {
+
+	#topbar {
+		display: none;
+	}
+	.colnav {
+		width: 100%;
+		border-bottom: solid;
+		border-bottom-width: .1em;
+		padding: .4em 0;
+	}
+	.colnavr {
+		width: 100%;
+		border-bottom: solid;
+		border-bottom-width: .1em;
+		padding: .4em 0;
+	}
+	.col1 {
+		width: 100%;
+		clear: left;
+	}
+
+	.col2 {
+		display: none;
+	}
+
+	.col3 {
+		width: 100%;
+		clear: right;
+		padding: 0;
+	}
+
+	.bodycopy {
+		width: 100%;
+	}
+
+	#page {
+		width: 100%;
+	}
+
+	#navToggle {
+		display: block;
+	}
+}
+
+/*END OF GRID FOR INDEX.HTML*/
+
+/*GRID FOR PRODUCTS.HTML*/
+[class*='col-'] {
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+
+
+
+.col-1of3products {
+	width: 33.3333333%;
+
+}
+
+@media (max-width: 600px) {
+	.col-1of3products {
+		width: 100%;
+	}
+}
+
+/*END OF GRID FOR PRODUCTS.HTML*/
