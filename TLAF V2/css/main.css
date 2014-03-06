@@ -12,7 +12,16 @@ h2 {
 }
 
 body {
-	font-family: "courier";
+	font-family: "courier new";
+}
+
+h5 {
+	font-family: "courier new";
+	font-weight: lighter;
+}
+
+li {
+	line-height: 1.5em;
 }
 
 #page {
@@ -37,6 +46,15 @@ body {
 	color: white;
 	font-size: .8em;
 	margin: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #707070;
+}
+
+a:hover, a:active {
+	color: black;
 }
 
 /*END OF STYLING OF ALL PAGES*/
