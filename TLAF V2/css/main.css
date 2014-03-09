@@ -155,3 +155,11 @@ h2 {
 
 /*END OF STYLING OF PRODUCTS.HTML*/
 
+
+/*STYLING OF PRODUCTS_LIST.HTML*/
+
+.indprod {
+	padding: 1em;
+	height: 23em;
+}
+

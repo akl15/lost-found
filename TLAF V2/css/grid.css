@@ -136,6 +136,12 @@
 	#navToggle {
 		display: block;
 	}
+
+	.col4 {
+		text-align: center;
+	}
+
+
 }
 
 /*END OF GRID FOR INDEX.HTML*/
@@ -187,6 +193,11 @@
 
 	.col4moods {
 		visibility: hidden;
+	}
+
+	.indprod {
+		padding: 0 1em;
+		height: auto;
 	}
 }
 
