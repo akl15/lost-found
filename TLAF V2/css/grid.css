@@ -169,7 +169,7 @@
 /*END OF GRID FOR PRODUCTS.HTML*/
 
 
-/*GRID FOR PRODUCTS_CATEGORIES.HTML*/
+/*GRID FOR PRODUCTS_LIST.HTML*/
 
 .col4 {
 	width: 25%;
@@ -185,6 +185,13 @@
 	
 }
 
+@media (max-width: 840px) {
+	.indprod {
+		padding: 0 0.4em;
+	}
+
+}
+
 @media (max-width: 600px) {
 	.col4 {
 		width: 100%;
@@ -192,7 +199,7 @@
 	}
 
 	.col4moods {
-		visibility: hidden;
+		display: none;
 	}
 
 	.indprod {
@@ -203,3 +210,69 @@
 
 
 /*END OF GRID FOR PRODUCTS_CATEGORIES.HTML*/
+
+/*GRID FOR ITEM.HTML*/
+.name {
+	text-align: left;
+}
+
+.col3of5 {
+	width: 60%;
+	float: left;
+}
+
+.col3of5row {
+	width: 60%;
+	float: left;
+}
+
+.col3of5 img {
+	max-width: 100%;
+}
+
+.col2of5 {
+	width: 40%
+	clear: both;
+}
+
+.col2of5 p{
+	max-width: 100%;
+
+}
+
+
+@media (max-width: 890px) {
+
+.col3of5 {
+	width: 100%;
+}
+
+.col3of5 img{
+	max-width: 100%;
+	margin: auto 0;
+}
+
+.col3of5row {
+	margin:auto;
+}
+
+.col2of5 {
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+
+.col3of5 {
+	width: 100%;
+}
+
+.col2of5 {
+	width: 100%
+}
+
+.col3of5row {
+	margin:auto 0;
+}
+
+/*END OF GRID FOR ITEM.HTML*/
+
