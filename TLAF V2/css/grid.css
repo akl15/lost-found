@@ -61,7 +61,6 @@
 	-webkit-transition: background-color 0.5s;
 }
 
-
 .colnavr {
 	float: left;
 	width: 8em;
@@ -161,6 +160,11 @@
 	.bodycopy {
 		width: 100%;
 		clear: both;
+	}
+
+	.bodycopy p{
+		line-height: normal;
+		margin: 0;
 	}
 
 	#page {
@@ -400,7 +404,7 @@
 /*GRID FOR ABOUT.HTML, CONTACT.HTML*/
 .textcontent {
 	margin: auto;
-	width: 70%;
+	width: 80%;
 }
 
 .col3of5line {
@@ -429,3 +433,39 @@
 	}
 
 /*END OF GRID FOR ABOUT.HTML, CONTACT.HTML*/
+
+/*GRID FOR BLOG.HTML*/
+[class*='col-'] {
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+
+
+
+.col-1of3blog {
+	width: 33.3333333%;
+}
+
+.col-1of3blog p{
+	font-size: .9rem;
+	text-align: justify;
+	margin-left: 6px;
+	padding-right: 8px;
+}
+
+.col-1of3blog a h3{
+	color: black;
+}
+
+@media (max-width: 600px) {
+	.col-1of3blog {
+		width: 100%;
+	}
+
+	.col-1of3blog p{
+	padding: 0 10px;
+	}
+}
+
+/*END OF GRID FOR blog.HTML*/

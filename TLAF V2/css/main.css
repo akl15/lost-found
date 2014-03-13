@@ -136,7 +136,16 @@ h4 {
 
 
 
+.featureitems img{
+	opacity: 0.6;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
 
+.featureitems img:hover{
+	opacity: 1.0;
+}
 
 
 .indeximg {
@@ -175,8 +184,24 @@ h4 {
 
 .indprod {
 	padding: 1em;
-	height: 23em;
+	height: 26em;
 }
+
+.indprod h4{
+	margin-top: -18px;
+}
+
+.indprod img{
+	opacity: 0.85;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.indprod img:hover{
+	opacity: 1.0;
+}
+
 
 /*STYLING OF ITEM.HTML*/
 
@@ -211,3 +236,32 @@ h4 {
 
 /*END OF STYLING OF CART.HTML*/
 
+/*STYLING OF ITEM.HTML*/
+
+.col3of5row img{
+	opacity: 0.85;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.col3of5row img:hover{
+	opacity: 1.0;
+}
+
+/*END OF STYLING OF ITEM.HTML*/
+
+/*STYLING OF BLOG.HTML*/
+
+.col-1of3blog img{
+	opacity: 0.85;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.col-1of3blog img:hover{
+	opacity: 1.0;
+}
+
+/*END OF STYLING OF BLOG.HTML*/
