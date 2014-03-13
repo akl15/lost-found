@@ -392,3 +392,36 @@
 }
 
 /*END OF GRID FOR CART.HTML*/
+
+/*GRID FOR ABOUT.HTML, CONTACT.HTML*/
+.textcontent {
+	margin: auto;
+	width: 70%;
+}
+
+.col3of5line {
+	width: 55%;
+	float: left;
+	margin-top: 25px;
+	padding-right: 20px;
+}
+
+.col2of5contact {
+	width: 40%;
+	display: inline;
+	float: right;
+	margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+.col3of5line {
+	width: 100%;
+	border: none;
+}
+
+.col2of5contact {
+	width: 100%;
+}
+	}
+
+/*END OF GRID FOR ABOUT.HTML, CONTACT.HTML*/
