@@ -184,9 +184,19 @@ h4 {
 .productimg {
 	max-width: 100%;
 	padding: .5em;
+
 }
 
+.col-1of3products img{
+	opacity: 0.85;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
 
+.col-1of3products img:hover{
+	opacity: 1.0;
+}
 
 /*END OF STYLING OF PRODUCTS.HTML*/
 
@@ -198,9 +208,6 @@ h4 {
 	height: 26em;
 }
 
-/*.indprod h4{
-	margin-bottom: -18px;
-}*/
 
 .indprod img{
 	opacity: 0.85;
