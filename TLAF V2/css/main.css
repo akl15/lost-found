@@ -33,6 +33,7 @@ li {
 	border-style: solid;
 	border-width: .5em;
 }
+
 #bottombar {
 	float: right;
 	width: 100%;
@@ -114,13 +115,26 @@ nav a:hover {
 
 /*STYLING OF INDEX.HTML*/
 
-#carousel {
-	text-align: center;
+.bodycopy p {
+	padding-bottom: 6em;
 }
+
 
 h2 {
 	text-align: center;
+	margin-bottom: 1em;
+	padding-top: 1em;
+} 
+
+
+h4 {
+	text-align: center;
+	margin-bottom: 0;
+	padding-top: 2em;
 }
+
+
+
 
 
 
