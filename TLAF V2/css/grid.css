@@ -243,36 +243,101 @@
 
 @media (max-width: 890px) {
 
-.col3of5 {
-	width: 100%;
-}
+	.col3of5 {
+		width: 100%;
+	}
 
-.col3of5 img{
-	max-width: 100%;
-	margin: auto 0;
-}
+	.col3of5 img{
+		max-width: 100%;
+		margin: auto 0;
+	}
 
-.col3of5row {
-	margin:auto;
-}
+	.col3of5row {
+		margin:auto;
+	}
 
-.col2of5 {
-	width: 100%;
+	.col2of5 {
+		width: 100%;
+	}
+
 }
 
 @media (max-width: 600px) {
 
-.col3of5 {
-	width: 100%;
-}
+	.col3of5 {
+		width: 100%;
+	}
 
-.col2of5 {
-	width: 100%
-}
+	.col2of5 {
+		width: 100%
+	}
 
-.col3of5row {
-	margin:auto 0;
+	.col3of5row {
+		margin:auto 0;
+	}
+
 }
 
 /*END OF GRID FOR ITEM.HTML*/
 
+
+
+
+/*GRID FOR CART.HTML*/
+
+.col1cart {
+	float: left;
+	width: 66.6666666%;
+	/*border-style: solid;*/
+}
+
+.cartitem {
+	border-style: solid;
+	overflow: hidden;
+}
+
+.colcartimg {
+	float: left;
+	/*border-style: dotted;*/
+	width: 20%;
+	
+}
+
+.cartimg {
+	max-width: 100%;
+
+}
+
+.colcartinfo {
+	float: left;
+	/*border-style: dotted;*/
+	width: 70%;
+	padding-left: 1em;
+}
+
+.delbutton {
+	text-align: center;
+	border-style: solid;
+	float: left;
+	width: 10%;
+}
+
+.col2cart {
+	float: left;
+	width: 33.3333333%;
+	border-style: solid;
+	margin-bottom: 1em;
+}
+
+
+@media (max-width: 600px) {
+	.col2cart {
+		display: none;
+	}
+
+	.col1cart {
+		width: 100%;
+	}
+}
+
+/*END OF GRID FOR CART.HTML*/
