@@ -198,9 +198,9 @@ h4 {
 	height: 26em;
 }
 
-.indprod h4{
-	margin-top: -18px;
-}
+/*.indprod h4{
+	margin-bottom: -18px;
+}*/
 
 .indprod img{
 	opacity: 0.85;
