@@ -11,7 +11,7 @@ $(document).ready( function() {
 // THIS MAKES THE NAVIGATION TURN INTO A DROPDOWN MENU ON RESIZE
 	$(window).resize( function() {
 		var windowWidth = $(window).width();
-		if (windowWidth>985) {
+		if (windowWidth>1000) {
 			$("#navToggle").css("display","none");
 			$("nav").show();
 		}
@@ -25,7 +25,7 @@ $(document).ready( function() {
 // THIS MAKES THE NAVIGATION TURN INTO A DROWPDOWN MENU ON PAGE LOAD
 	$(document).ready( function() {
 		var windowWidth = $(window).width();
-		if (windowWidth>985) {
+		if (windowWidth>1000) {
 			$("#navToggle").css("display","none");
 			$("nav").show();
 		}
