@@ -54,7 +54,7 @@
 	-webkit-transition: background-color .5s;
 }
 
-.colnavr:hover {
+.colnavr:hover, .share li:hover {
 	background-color: black;
 	
 	transition: background-color 0.5s;
@@ -67,11 +67,28 @@
 	width: 8em;
 	padding: 0;
 }
+
 .colnav {
 	float: left;
 	width: 8em;
 	padding: 0;
 }
+
+.share {
+	float: left;
+	width: 8em;
+	padding: 0;
+}
+
+.share ul{
+	list-style: none;
+}
+
+.share ul li{
+	display: inline-block;
+	margin: 0 2px;
+	margin-top: -20px;
+	}
 
 @media (max-width: 1300px) {
 	.colnav {
