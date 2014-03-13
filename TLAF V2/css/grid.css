@@ -141,6 +141,10 @@
 		text-align: center;
 	}
 
+	.col1feature {
+		width: 50%;
+		margin: auto;
+	}
 
 }
 

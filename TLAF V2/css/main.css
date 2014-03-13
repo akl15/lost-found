@@ -163,3 +163,8 @@ h2 {
 	height: 23em;
 }
 
+/*STYLING OF ITEM.HTML*/
+
+.col2of5 blockquote {
+	border-bottom: 5px solid #e0e0e0;
+}
