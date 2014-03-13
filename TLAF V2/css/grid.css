@@ -102,6 +102,7 @@
 #carousel {
 	width: 100%;
 	margin: auto;
+	padding-bottom: 2em;
 }
 
 
@@ -342,9 +343,11 @@
 	/*border-style: solid;*/
 }
 
-.cartitem {
-	border-style: solid;
+.cartitem1, .cartitem2 {
+	border-bottom: solid;
 	overflow: hidden;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 .colcartimg {
@@ -368,9 +371,10 @@
 
 .delbutton {
 	text-align: center;
-	border-style: solid;
+	/*border-style: solid;*/
 	float: left;
 	width: 10%;
+
 }
 
 .col2cart {
@@ -381,9 +385,9 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	.col2cart {
-		display: none;
+		width: 100%;
 	}
 
 	.col1cart {

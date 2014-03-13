@@ -35,4 +35,14 @@ $(document).ready( function() {
 		}
 	});
 
+
+// THIS DELETES AN ITEM FROM THE CART
+	$("#delitem1").click( function() {
+		$(".cartitem1").css("display","none");
+		$(".cartitem2").show();
+
+	});
+
+
+
 });

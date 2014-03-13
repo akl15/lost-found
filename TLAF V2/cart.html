@@ -96,40 +96,43 @@
 
       <script src="js/jquery.js"></script>
       <script src="js/ui.js"></script>
+
+
+      <h2>CART</h2>
   		
       
       <div class="col1cart">
 
-        <div class="cartitem">
+        <div class="cartitem1">
           <div class="colcartimg">
-          <img class="cartimg" src="http://placehold.it/100x100" alt="logo_image">
+          <img class="cartimg" src="images/products/socks.jpg" alt="logo_image">
           </div>
           <div class="colcartinfo">
-          <p>product description product description product description product description</p>
+          <p>product description product description product description product description product description product description product description product description</p>
+          <h4>$16</h4>
           </div>
-          <div class="delbutton">delete item</div>
+          <div class="delbutton"><a id="delitem1" href="#"><img src="images/deleteitem.svg" alt="x"></a></div>
         </div>
 
-        <div class="cartitem">
-          <div class="colcartimg">
-          <img class="cartimg" src="http://placehold.it/100x100" alt="logo_image">
-          </div>
-          <div class="colcartinfo">
-          <p>product description product description product description product description</p>
-          </div>
-          <div class="delbutton">delete item</div>
+        <div class="cartitem2">
+          <h4>Your cart is empty</h4>          
         </div>
 
       </div>
 
+      
+
       <div class="col2cart">
         
         <form name="input" action="html_form_action.asp" method="get">
-          Username: <input type="text" name="user">
-          Password: <input type="password" name="pwd">
-          </br>
-          </br>
-          <input type="submit" value="Submit">
+          <p>Username: <input type="text" name="user"></p>
+          <p>Password: <input type="password" name="pwd"></p>
+          
+          <p><input type="submit" value="Login"></p>
+          
+          <p class="checkoutbutton"><input type="submit" value="Checkout"></p>
+          
+          <p><input type="submit" value="Cancel"></p>
         </form>
       
       </div>

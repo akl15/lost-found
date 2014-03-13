@@ -127,10 +127,11 @@ h2 {
 } 
 
 
+
 h4 {
 	text-align: center;
 	margin-bottom: 0;
-	padding-top: 2em;
+	
 }
 
 
@@ -196,8 +197,17 @@ h4 {
 /*STYLING OF CART.HTML*/
 
 .col2cart {
-	padding: 2em;
+	padding: 1em;
 }
+
+.cartitem2 {
+	display: none;
+}
+
+.checkoutbutton {
+	margin-top: 3em;
+}
+
 
 /*END OF STYLING OF CART.HTML*/
 
